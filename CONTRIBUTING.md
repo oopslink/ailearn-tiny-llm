@@ -1,37 +1,91 @@
-# Contributing to Your Learning
+# Contributing to Tiny-LLM Learning Project
 
-This is a personal learning repository, but here are some guidelines for organizing your work:
+This is a personal learning project, but contributions in the form of improvements, corrections, or suggestions are welcome!
 
-## Adding Notes
+## 🎯 Project Purpose
 
-- Place general notes in `notes/`
-- Place chapter-specific notes in the respective `chapters/chXX-*/` directory
-- Use clear markdown formatting for readability
+This repository is designed for **learning** LLM inference and serving systems. Any contributions should support this educational goal.
 
-## Adding Code
+## 🤝 How to Contribute
 
-1. Place implementations in the `code/` directory
-2. Create subdirectories for different topics
-3. Include docstrings and comments
-4. Add usage examples in the code or README
+### Reporting Issues
+If you find errors or have suggestions:
+1. Check existing issues first
+2. Create a new issue with:
+   - Clear description of the problem
+   - Which week/day it relates to
+   - Expected vs. actual behavior
+   - Your environment (OS, Python version, MLX version)
 
-## Adding Exercises
+### Suggesting Improvements
+For documentation or structure improvements:
+1. Open an issue describing the improvement
+2. Explain how it helps the learning experience
+3. Provide examples if applicable
 
-1. Place exercises in the `exercises/` directory
-2. Include the problem statement
-3. Document your solution approach
-4. Add test cases where applicable
+### Code Contributions
+For code examples or utilities:
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/your-feature`)
+3. Add your contribution
+4. Ensure code follows project style
+5. Write clear commit messages
+6. Submit a pull request
 
-## Best Practices
+## 📝 Contribution Guidelines
 
-- Commit regularly with clear messages
-- Update progress checkboxes in the main README
-- Document challenges and insights
-- Keep code clean and well-organized
-- Reference course materials with links
+### Documentation
+- Use clear, educational language
+- Include examples and explanations
+- Reference course materials appropriately
+- Follow existing documentation structure
 
-## File Naming
+### Code
+- Add docstrings and comments
+- Include shape annotations for tensors
+- Follow existing code organization
+- Add tests where appropriate
+- Keep implementations pedagogical (prefer clarity over cleverness)
 
-- Use lowercase with hyphens: `tokenizer-implementation.py`
-- Be descriptive: `ch01-hello-world.py` instead of `test.py`
-- Include chapter numbers when relevant
+### Session Documentation
+- Share interesting insights or alternative approaches
+- Document challenging problems and solutions
+- Contribute helpful debugging tips
+- Share useful resources
+
+## 🚫 What Not to Contribute
+
+- Direct solutions to exercises (defeats learning purpose)
+- Overly complex implementations (this is for learning)
+- Production optimizations that obscure concepts
+- Unrelated features or tools
+
+## 📚 Resources for Contributors
+
+- **Course Website**: https://skyzh.github.io/tiny-llm
+- **Original Repo**: https://github.com/skyzh/tiny-llm
+- **MLX Documentation**: https://ml-explore.github.io/mlx/
+
+## 🙏 Acknowledgments
+
+Contributions that enhance the learning experience are greatly appreciated!
+
+### Types of Valuable Contributions
+- Clarifying confusing documentation
+- Adding helpful debugging tips
+- Sharing alternative implementation approaches
+- Improving session templates
+- Suggesting additional learning resources
+- Fixing technical errors
+
+## 📄 License
+
+By contributing, you agree that your contributions will follow the same license as this project.
+
+## 💬 Questions?
+
+For questions about contributing, open an issue or discussion on GitHub.
+
+---
+
+**Thank you for helping improve this learning resource!** 🚀

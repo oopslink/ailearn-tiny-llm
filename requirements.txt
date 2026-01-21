@@ -1,15 +1,54 @@
-# Core dependencies for tiny-llm course
-torch>=2.0.0
-transformers>=4.30.0
-tokenizers>=0.13.0
+# Python dependencies for tiny-llm learning project
 
-# Development and utilities
-jupyter>=1.0.0
+# Core ML framework - choose based on your hardware
+# For Apple Silicon (M1/M2/M3):
+mlx>=0.0.9
+mlx-lm>=0.0.6
+
+# Alternative: For CUDA GPUs, use PyTorch
+# torch>=2.1.0
+# torchvision>=0.16.0
+
+# Essential libraries
 numpy>=1.24.0
-matplotlib>=3.7.0
+transformers>=4.35.0  # For tokenizers and model configs
+huggingface-hub>=0.19.0  # For downloading models
+safetensors>=0.4.0  # For loading model weights
 
-# Additional utilities
-tqdm>=4.65.0
-requests>=2.31.0
+# Development and testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+black>=23.0.0  # Code formatting
+isort>=5.12.0  # Import sorting
+mypy>=1.5.0  # Type checking
 
-# Note: Add more dependencies as you progress through the course
+# Performance profiling
+py-spy>=0.3.14  # Python profiler
+memory-profiler>=0.61.0  # Memory profiler
+
+# Jupyter for exploration
+jupyter>=1.0.0
+ipykernel>=6.25.0
+matplotlib>=3.8.0  # For visualization
+
+# Week 2: Custom kernels (optional, install if implementing C++/Metal kernels)
+# pybind11>=2.11.0  # Python-C++ bindings
+# cmake>=3.18.0  # Build system
+
+# Week 3: RAG and vector search (install when needed)
+# chromadb>=0.4.15  # Vector database
+# faiss-cpu>=1.7.4  # Facebook AI Similarity Search (CPU version)
+# langchain>=0.0.330  # RAG framework
+# sentence-transformers>=2.2.2  # Text embeddings
+
+# Documentation
+markdown>=3.5.0
+mkdocs>=1.5.0  # For building documentation (optional)
+
+# Utilities
+tqdm>=4.66.0  # Progress bars
+python-dotenv>=1.0.0  # Environment variables
+pyyaml>=6.0.0  # YAML parsing
+
+# Type hints
+typing-extensions>=4.8.0
